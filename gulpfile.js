@@ -21,10 +21,14 @@ gulp.task('css', function() {
 			.pipe(browsersync.reload({stream: true}))
 })
 
+gulp.task('img', function() {
+	return gulp.src('src/img/*.*')
+			.pipe(gulp.dest('dist/img'))
+})
+
 gulp.task('watch', function(cb) {
-	sequence('css', 'html', cb);
-	gulp.watch('src/index.html', ['html']);
-	gulp.watch('src/less.css', ['css']);
+	sequence('css', 'html', 'img', cb);
+	gulp.watch('src/**/*.*', ['watch']);
 })
 
 gulp.task('default', sequence('cleandist', 'watch', 'browser'));
