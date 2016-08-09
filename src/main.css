@@ -82,15 +82,16 @@ tr#content-wrap-tr td.content-wrap-td .content-text-wrap > tr > td {
 }
 tr#content-wrap-tr td.content-wrap-td .content-text-wrap .content-header {
   display: block;
-  font-size: 24px;
+  font-size: 22px;
   color: #215690;
+  text-align: center;
 }
 tr#content-wrap-tr td.content-wrap-td .content-text-wrap .content-text {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   text-align: justify;
   padding-top: 15px;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 tr#content-wrap-tr td.content-wrap-td .content-text-wrap .content-header-2 {
   display: block;
@@ -133,8 +134,7 @@ tr#content-wrap-tr td.content-wrap-td .content-text-wrap .content-list .content-
   display: block;
   font-weight: bold;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding: 30px 0;
 }
 #footer .footer-text-faq-wrap .footer-text {
   display: block;
@@ -142,7 +142,8 @@ tr#content-wrap-tr td.content-wrap-td .content-text-wrap .content-list .content-
   padding-bottom: 25px;
 }
 #footer .footer-text-faq-wrap .footer-soc-btn {
-  padding-top: 111px;
+  padding-top: 10px;
+  vertical-align: middle;
 }
 #footer .footer-bottom-wrap {
   border-radius: 0 0 15px 15px;
