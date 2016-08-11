@@ -38,20 +38,19 @@ img {
 
 
 .header-text {
-	color: #ffffff;
+	color: #ff9124;
 	padding-top: 15px;
-	padding-left: 7px;
 	
 	> span:first-child {
-		font-size: 18px;
+		font-size: 16px;
 		padding-left: 29px;
 		line-height: 57px;
 	}
 
 	> span:last-child {
-		font-size: 18px;
-		padding-left: 97px;
-		
+		font-size: 16px;
+		padding-left: 60px;
+		color: #ffffff;
 	}
 }
 
@@ -87,6 +86,29 @@ img {
 	}
 }
 
+.header-bottom {
+	background-image: url(http://lalala123.hol.es/img-2/bg-img.png);
+	background-color: #ffffff;
+	background-repeat: repeat-x;
+
+	.auth-link {
+		display: block;
+		width: 100%;
+		text-decoration: none;
+		text-align: center;
+		color: #ffffff;
+
+		> span {
+			display: block;
+			line-height: 35px;
+			width: 100%;
+			height: 35px;
+			background-color: #ff9124;
+			cursor: pointer;
+			border-radius: 10px;
+		}
+	}
+}
 
 	// CONTENT-WRAP
 	tr#content-wrap-tr {
@@ -163,7 +185,7 @@ img {
 		}
 
 		.footer-goto-site {
-			background-image: url(http://lalala123.hol.es/img/bg-img.png);
+			background-image: url(http://lalala123.hol.es/img-2/bg-img-2.png);
 			background-color: #e4ecf0;
 			background-repeat: repeat-x;
 
@@ -176,12 +198,12 @@ img {
 
 				> span {
 					display: block;
-					line-height: 35px;
+					line-height: 40px;
 					width: 100%;
-					height: 35px;
-					background-color: #ff9124;
+					height: 40px;
+					background-color: #69be1a;
 					cursor: pointer;
-					border-radius: 14px;
+					border-radius: 8px;
 				}
 			}
 		}
@@ -199,16 +221,18 @@ img {
 		}
 
 		.footer-text-faq-wrap {
+			color: #ffffff;
+			border-radius: 0 0 8px 8px;
 
 			.footer-text {
 				display: block;
 				line-height: 1.5;
-				padding-bottom: 25px;
+				padding: 5px 0 15px;
 			}
 
 			.footer-soc-btn {
-				padding-top: 10px;
-				vertical-align: middle;
+				padding-bottom: 15px;
+				vertical-align: bottom;
 			}
 		}
 
